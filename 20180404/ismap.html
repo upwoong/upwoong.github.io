@@ -1,13 +1,21 @@
 <!doctype html>	<!-- basicSemantic1.html-->
 <html lang="ko">
 <head>
-<meta charset="utf-8"/><meta name="viewport"content="width=device-width,initial-scale=1"/>
-<title>HTML5 서버 사이드 이미지맵 실습</title>
+<%@page contentType="text/html;charset=utf-8"%><meta name="viewport"content="width=device-width,initial-scale=1"/>
+
+<title>Request인스턴스 표현</title>
 </head>
 <body>
 <a href="http://jsp.dju.ac.kr/~kdhongx/ex/form_action.jsp"> <!-- jsp file -->
 <img src="scene.png" alt="scene" width="1000" height="288"ismap/>
 </a>
 <p>이미지의 특정 부분을 클릭하면 URL query string으로 x,y주소가 서버로 전달됨 </p>
+서버 도메인 이름:<%=request.getServerName()%><br/>
+서버 포트:<%=request.getServerPort()%><br/>
+컨텍스트경로:<%=request.getContextPath()%><br/>
+클라이언트 주소:<%=request.getRemoteAddr()%><br/>
+요청 프로토톨<%=request.getProTocol()%><br/>
+요청 방식:<%=request.getMethod()%><br/>
+질의내용:<%=request.getQueryString()%><br/>
 </body>
 </html>
