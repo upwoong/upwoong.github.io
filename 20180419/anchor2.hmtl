@@ -33,7 +33,7 @@ a:active{color:blue;background-color:transparent;text-decoration:none;}
 <li><a href="upwoong.github.io/20180419/bassicSemanticMember1.html">회원가입</a>|</li>
 <li>사이트맵</li>
 </ul>
-<img src="../20180404/scene.png"alt="히말라야"/>
+<img src="../20180419/scene.png"alt="히말라야"/>
 </header>
 <nav>
 <ul>
@@ -57,7 +57,7 @@ a:active{color:blue;background-color:transparent;text-decoration:none;}
 브라우저가 지원하지않거나 비디오 형식의 파일이 존재하지 않습니다!!!
 </video><hr/>
 </section>
-</section> <!-- /main -->
+<section> <!-- /main -->
 <footer>
 <p>&copy;20XX Made by Korea. All rights reserved. </p>
 </footer>
